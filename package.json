@@ -1,6 +1,6 @@
 {
   "name": "event-type-list",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A reducible list abstraction with access to current state",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
