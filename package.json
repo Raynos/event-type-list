@@ -17,20 +17,17 @@
     "email": "raynos2@gmail.com"
   },
   "dependencies": {
-    "invoker": "~0.1.2",
+    "invoker": "~1.0.1",
     "xtend": "~1.0.3",
-    "event": "git://github.com/Raynos/event",
-    "reducers": "git://github.com/Raynos/reducers"
-  },
-  "peerDependencies": {
-    "reducible": "~1.0.5"
+    "event": "Raynos/event#dedup",
+    "reducers": "Raynos/reducers#dedup",
+    "reducible": "Raynos/reducible#v1.0.6"
   },
   "devDependencies": {
-    "tape": "~0.2.2",
-    "reducible": "~1.0.5",
+    "tape": "~0.3.2",
     "browserify": "https://github.com/raynos/node-browserify/tarball/master",
     "testem": "~0.2.56",
-    "callback-reduce": "~1.1.0"
+    "callback-reduce": "Raynos/callback-reduce#dedup"
   },
   "licenses": [
     {
